@@ -71,7 +71,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 
 ### Screenshot Desktop View 
 
-![Home Page](asset/screenshot.png)
+![Home Page](asset/desktop.png)
 
 ### Screenshot Mobile View
-![Home Page](asset/screenshot.png)
+![Home Page](asset/mobile.png)
