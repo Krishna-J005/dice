@@ -1,0 +1,130 @@
+.container {
+  padding: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+input[type="text"] {
+  padding: 0.5rem 1rem;
+  margin: 0.5rem;
+  width: min(320px, 100%);
+  border-radius: 2rem;
+  font-size: 16px;
+  border: 2px solid gray;
+}
+
+.text-xl {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.word-break {
+  overflow-wrap: break-word;
+}
+
+.avatar {
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  overflow: hidden;
+  background-color: #f0f0f0;
+  margin: 4px auto 8px;
+}
+
+.avatar img {
+  width: 100%;
+  height: auto;
+}
+
+.results {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.result > * {
+  min-width: fit-content;
+  flex: 1;
+}
+
+/* @media screen and (max-width: 640px) {
+    .result {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+} */
+
+.card {
+  background-color: #f2f3f5;
+  border-radius: 8px;
+  box-shadow: 0 4px 4px rgba(117, 115, 115, 0.1);
+  padding: 1rem;
+  margin: 0.75rem;
+  min-width: 320px;
+  max-width: 320px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+.card h2 {
+  margin-top: 0;
+}
+
+.card p {
+  margin-bottom: 10px;
+}
+
+.vertical-align {
+  padding: 0px 4px;
+  align-items: center;
+}
+
+.card:hover {
+  outline: 1px solid rgb(169, 165, 165);
+}
+
+.card a {
+  display: block;
+  text-decoration: none;
+  color: #0366d6;
+}
+
+.card a:hover {
+  transform: scale(1.1);
+}
+
+.display-flex {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  gap: 0.5rem;
+  position: absolute;
+  bottom: 10px;
+}
+
+.icon {
+  margin: 4px !important;
+}
+
+.h-8 {
+  display: flex;
+  align-items: center;
+  height: 32px;
+}
+
+.github {
+  margin: 8px auto;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.description {
+  margin: 8px 0;
+  font-size: 14px;
+  font-weight: 500;
+  color: #8b8787;
+}
