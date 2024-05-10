@@ -58,12 +58,14 @@ function GithubRepos() {
                 <img src={repo.owner.avatar_url} alt="Avatar" loading="lazy" />
               </div>
               <div className="text-xl word-break">{repo.full_name}</div>
-              <div className="vertical-align description">{repo.description}</div>
-              <div className="description">Language: {repo.language ? repo.language : "..."}</div>
+              <div className="vertical-align gray-text">{repo.description}</div>
+              <div className="gray-text">Language: {repo.language ? repo.language : "..."}</div>
+
+              <div className="gray-text"> Created at: {new Date(repo.created_at).toDateString()}</div>
+              <div className="gray-text"> Updated at: {new Date(repo?.updated_at).toDateString()}</div>
               <a href={repo.html_url} target="_blank" rel="noreferrer" className="github">
                 View on GitHub
               </a>
-              <hr />
               <div className="display-flex">
                 <div className="h-8" title="Stars">
                   <span className="icon">
